@@ -1,11 +1,11 @@
 #contenedor_foto {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 
 #foto_encabezado {
-    max-width: 100%; /* Para que no se desborde en pantallas pequeñas */
+    width: 550px; 
 }
 
 .flex{
@@ -14,5 +14,20 @@
 
 .columnas2 {
     width: 50%;
-    margin 5%;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.justificar {
+    text-align: justify;
+}
+
+.tabla1,.tabla2,td,th{
+    border: 2px solid  rgb(79, 189, 197);
+    background-color: rgb(179, 240, 244);
+    
 }
