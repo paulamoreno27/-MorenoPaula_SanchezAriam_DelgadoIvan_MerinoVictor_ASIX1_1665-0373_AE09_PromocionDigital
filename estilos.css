@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
 #contenedor_foto {
     display: flex;
     justify-content: center;
@@ -30,4 +35,32 @@
     border: 2px solid  rgb(79, 189, 197);
     background-color: rgb(179, 240, 244);
     
+}
+
+.videos1,.videos2{
+    width: 100%; 
+    max-width: 600px; 
+    display: block;
+    margin: 20px auto;
+}
+
+.videos2{
+    margin-top: 11.3%;;
+}
+
+footer {
+    background-color: #4fbdc5;
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+    margin-top: 40px;
+}
+
+.footer-container {
+    padding: 10px; 
+}
+
+.footer-copy {
+    margin-top: 5px; 
+    font-size: 14px;
 }
