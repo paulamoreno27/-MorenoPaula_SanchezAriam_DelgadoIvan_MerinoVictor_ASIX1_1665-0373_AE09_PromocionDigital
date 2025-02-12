@@ -1,6 +1,18 @@
+#contenedor_foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #foto_encabezado {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;
+    max-width: 100%; /* Para que no se desborde en pantallas pequeñas */
+}
+
+.flex{
+    display: flex;
+}
+
+.columnas2 {
+    width: 50%;
+    margin 5%;
 }
