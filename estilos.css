@@ -2,11 +2,14 @@
     font-family: "Rowdies", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
 
+.raleway {
+    font-family: "Raleway", serif;
+    font-weight: 400;
+    font-style: normal;
+}
   
-
 header {
     background-image: url(./FOTOS-Y-VIDEOS/foto_encabezado.jpg); 
     background-size: cover; 
@@ -15,13 +18,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
 
 .quienessomos{
     padding-left: 5%;
     padding-right: 5%;
     text-align: justify;
+    font-family: "Raleway", serif;
 }
 
 .quienessomos>h3{
@@ -29,7 +33,7 @@ header {
     font-family: 'Rowdies';
     font-optical-sizing: auto;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     font-style: normal;
     color: #4fbdc5;
 }
@@ -38,18 +42,16 @@ body {
     font-size: 15px;
 }
 
-#contenedor_foto {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-#foto_encabezado {
-    width: 550px; 
+.espaciado{
+    margin-top: 3%;
 }
 
 .flex{
     display: flex;
+}
+
+.enlace {
+    text-decoration: none;
 }
 
 .columnas2 {
@@ -60,10 +62,11 @@ body {
 
 .columnas2>p{
     text-align: justify;
+    font-family: "Raleway", serif;
 }
 
 .centrar {
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -88,14 +91,10 @@ body {
 }
 
 .videos1,.videos2{
-    width: 100%; 
-    max-width: 600px; 
+    width: 50%;
+    height: auto;
     display: block;
     margin: 20px auto;
-}
-
-.videos2{
-    margin-top: 11.3%;;
 }
 
 footer {
@@ -103,7 +102,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0; 
-    margin-top: 40px;
+    margin-top: 10px;
+    font-family: "Rowdies", serif;
 }
 
 .footer-container {

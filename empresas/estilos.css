@@ -4,6 +4,14 @@
     font-style: normal;
   }
 
+.raleway {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+   
+
   header .casa img {
     position: absolute;
     top: 10px;
@@ -48,6 +56,7 @@ h1 {
 
 .columnas2>p{
     text-align: justify;
+    font-family: "Raleway", serif;
 }
 
 .centrar {
@@ -83,6 +92,7 @@ footer {
     text-align: center;
     padding: 10px 0; 
     margin-top: 40px;
+    font-family: "Rowdies", serif;
 }
 
 .footer-container {
@@ -97,6 +107,7 @@ footer {
 .tabla2,th,td{
     border: 2px solid  rgb(79, 189, 197);
     background-color: rgb(179, 240, 244);
+    font-family: "Raleway", serif;
 }
 
 
