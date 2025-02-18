@@ -1,5 +1,43 @@
+.rowdies-regular {
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* .raleway-<uniquifier> {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  } */
+  
+
+header {
+    background-image: url(./FOTOS-Y-VIDEOS/foto_encabezado.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quienessomos{
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+.quienessomos>h3{
+    text-align: center;
+    font-family: Rowdies, 
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Poppins', sans-serif;
     font-size: 15px;
 }
 
@@ -21,6 +59,10 @@ body {
     width: 50%;
     margin: 5%;
     margin-top: 1%;
+}
+
+.columnas2>p{
+    text-align: justify;
 }
 
 .centrar {
