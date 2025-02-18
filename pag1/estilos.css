@@ -1,0 +1,109 @@
+.rowdies-regular {
+    font-family: "Rowdies", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  header .casa img {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 30px;
+}
+
+header .flechader img {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+}
+
+header {
+    position: relative;
+    background-color: #4fbdc5;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rowdies';
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.columnas2 {
+    width: 50%;
+    margin: 5%;
+    margin-top: 1%;
+}
+
+.columnas2>p{
+    text-align: justify;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.titulos {
+    text-align: center;
+    font-family: 'Rowdies';
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: #4fbdc5;
+}
+
+
+.justificar {
+    text-align: justify;
+}
+
+.videos1,.videos2{
+    width: 25%;
+    height: 1%;
+    display: block;
+    margin: 20px auto;
+}
+
+
+footer {
+    background-color: #4fbdc5;
+    color: white;
+    text-align: center;
+    padding: 10px 0; 
+    margin-top: 40px;
+}
+
+.footer-container {
+    padding: 10px; 
+}
+
+.footer-copy {
+    margin-top: 5px; 
+    font-size: 14px;
+}
+
+.tabla2,th,td{
+    border: 2px solid  rgb(79, 189, 197);
+    background-color: rgb(179, 240, 244);
+}
+
+
+.espaciado{
+    margin-top: 3%;
+}
+
+.espaciadoDerecha{
+    margin-top: 6%;
+}
