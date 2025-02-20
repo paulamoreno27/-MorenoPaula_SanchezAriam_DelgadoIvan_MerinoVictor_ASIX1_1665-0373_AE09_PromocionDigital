@@ -118,3 +118,18 @@ footer {
 .espaciadoDerecha{
     margin-top: 6%;
 }
+
+.block {
+    margin-top: -2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#procedimineto {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    font-family: "Raleway", serif;
+    font-size: 16px;
+}
+
